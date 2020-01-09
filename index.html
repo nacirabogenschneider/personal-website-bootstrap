@@ -13,12 +13,24 @@
 </head>
 <body class="pt-5"> 
 <header>
-    <!--Navigation-->
-    <nav class="navbar navbar-expand fixed-top pt-0 bg-warning border border-info">
-        <div class="mx-auto d-block navbar-brand bg-info p-3 rounded-bottom"><a class="text-center text-light " href="#">Contact</a></div>
-        <div class="mx-auto d-block navbar-brand bg-info p-3 rounded-bottom"><a class="text-light text-center" href="#">Work</a></div>
-        <div class="mx-auto d-block navbar-brand bg-info p-3 rounded-bottom"><a class="text-light text-center" href="#">Education</a></div>
-   </nav>  
+    <!--Navigation for small devices-->
+       
+        <nav class="navbar fixed-top pt-0">
+            <div class="container d-md-none">
+                <div class="mx-auto d-block navbar-brand bg-info p-3 rounded-bottom"><a class="text-center text-light " href="#">Contact</a></div>
+                <div class="mx-auto d-block navbar-brand bg-info p-3 rounded-bottom"><a class="text-light text-center" href="#">Work</a></div>
+                <div class="mx-auto d-block navbar-brand bg-info p-3 rounded-bottom"><a class="text-light text-center" href="#">Education</a></div>
+            </div>    
+        </nav>
+        
+    <!--Navigation for medium and large devices-->
+        <nav class="navbar fixed-top">
+            <div class="container d-none d-md-block ">
+                <div class="mx-left navbar-brand border border-info p-3 rounded"><a class="text-center text-info" href="#">Contact</a></div>
+                <div class="mx-left navbar-brand border border-info p-3 rounded"><a class="text-info text-center" href="#">Work</a></div>
+                <div class="mx-left navbar-brand border border-info p-3 rounded"><a class="text-info text-center" href="#">Education</a></div>
+            </div>    
+        </nav>
 
     
 </header>
